@@ -1,0 +1,42 @@
+/* Basic styling for the body */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 20px;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+/* Styling for the main heading */
+h1 {
+    color: #d35400;
+}
+
+/* Styling for section headings */
+h2 {
+    color: #e67e22;
+    border-bottom: 2px solid #e67e22;
+    padding-bottom: 5px;
+}
+
+/* Styling for unordered and ordered lists */
+ul, ol {
+    background: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling for list items */
+li {
+    margin: 5px 0;
+}
+
+/* Styling for paragraphs */
+p {
+    font-size: 1.1em;
+    background: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
