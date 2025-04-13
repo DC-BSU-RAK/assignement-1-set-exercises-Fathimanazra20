@@ -1,0 +1,87 @@
+body {
+    font-family: 'Georgia', serif;
+    background-color: #1e1e2f; /* Dark moody purple-blue */
+    color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+  header {
+    background-color: #3a3a58; /* Stone-grey header */
+    color: #f0e6dc; /* Creamy white */
+    padding: 40px 20px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  header h1 {
+    font-size: 2.8em;
+    margin: 0;
+    letter-spacing: 2px;
+    text-shadow: 1px 1px 3px #000;
+  }
+  
+  header p {
+    font-size: 1.2em;
+    font-style: italic;
+    margin-top: 10px;
+  }
+  
+  main {
+    padding: 40px 20px;
+  }
+  
+  section {
+    background-color: #2e2e42;
+    margin: 40px auto;
+    padding: 25px;
+    width: 85%;
+    max-width: 600px;
+    border-radius: 12px;
+    border: 2px solid #5a5a7a;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+  }
+  
+  section:hover {
+    transform: scale(1.02);
+  }
+  
+  /* Image Styling */
+  img {
+    display: block;
+    margin: 0 auto 15px;
+    width: 400px;
+    height: auto;
+    border-radius: 8px;
+    border: 5px solid #5a5a7a;
+  }
+  
+  /* Filters for different atmospheric moods */
+  section:nth-of-type(1) img {
+    filter: grayscale(20%) contrast(1.1) brightness(1.1);
+  }
+  
+  section:nth-of-type(2) img {
+    filter: sepia(15%) brightness(1.05);
+  }
+  
+  section:nth-of-type(3) img {
+    filter: hue-rotate(-5deg) contrast(1.2);
+  }
+  
+  p {
+    font-size: 0.95rem;
+    color: #d0d0d0;
+  }
+  
+  a {
+    color: #c9a87f;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
