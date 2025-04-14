@@ -1,0 +1,111 @@
+/* General styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #000000;
+  }
+  
+  h1, h2 {
+    font-family: Tahoma, sans-serif;
+    font-weight: 700;
+  }
+  
+  /* Header */
+  header {
+    background-color: #17072b;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+  }
+  
+  nav a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.1em;
+  }
+  
+  /* Main layout */
+  main {
+    padding: 30px;
+  }
+  
+  .content {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+  }
+  
+  /* Welcome section */
+  .welcome {
+    flex: 2;
+  }
+  
+  .welcome h2 {
+    font-size: 1.5em;
+    border-bottom: 3px solid black;
+    display: inline-block;
+    margin-bottom: 10px;
+  }
+  
+  .welcome p {
+    margin-bottom: 20px;
+  }
+  
+  .welcome img {
+    width: 100%;
+    height: auto;
+  }
+  
+  /* Sidebar (Line Up) */
+  .lineup {
+    flex: 1;
+    background-color: #172d67;
+    color: #ffffff;
+    padding: 20px;
+  }
+  
+  .lineup h2 {
+    border-bottom: 3px solid #ffffff;
+    display: inline-block;
+    margin-bottom: 10px;
+  }
+  
+  .lineup ul {
+    padding-left: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .lineup li {
+    margin-bottom: 10px;
+  }
+  
+  .lineup-images {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .lineup-images img {
+    width: 100%;
+    max-width: 100px;
+    height: 100px;
+    object-fit: cover;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #8c15e9;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+    font-size: 0.9em;
+  }
+  
