@@ -1,42 +1,67 @@
-/* Basic styling for the body */
-body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    margin: 20px;
-    background-color: #f8f8f8;
-    color: #333;
+/* === General Reset and Base Styles === */
+body, html {
+    margin: 0;                            /* Remove default margin */
+    padding: 0;                          /* Remove default padding */
+    font-family: Arial, sans-serif;     /* Set default font */
+    line-height: 1.6;                  /* Improve readability */
+    color: #333;                    /* Base text color */
+    height: 100%;                    /* Ensure full height for background */
 }
 
-/* Styling for the main heading */
+/* === Background Container Styling === */
+.background {
+    background-image: url('images/butter-chicken.jpg'); /* Path to the background image */
+    background-size: cover;                            /* Ensure image covers the container */
+    background-position: center;                      /* Center the image */
+    background-attachment: fixed;                    /* Make background stay fixed during scroll */
+    min-height: 100vh;                              /* Minimum height = full viewport height */
+    display: flex;                                 /* Use flexbox to center overlay */
+    justify-content: center;                      /* Horizontally center overlay */
+    align-items: center;                         /* Vertically center overlay */
+    padding: 40px;                              /* Space around content */
+}
+
+/* === Overlay Styling === */
+.overlay {
+    background-color: rgba(255, 255, 255, 0.85);    /* Semi-transparent white background */
+    padding: 30px;                                   /* Space inside the overlay */
+    border-radius: 12px;                            /* Rounded corners */
+    max-width: 900px;                              /* Limit overlay width */
+    width: 100%;                                  /* Take full width of container */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); /* Soft shadow for depth */
+}
+
+/* === Headings Styling === */
 h1 {
-    color: #d35400;
+    color: #d35400;                 /* Bold orange color for main heading */
+    margin-top: 0;                   /* Remove default top margin */
 }
 
-/* Styling for section headings */
 h2 {
-    color: #e67e22;
-    border-bottom: 2px solid #e67e22;
-    padding-bottom: 5px;
+    color: #e67e22;                    /* Slightly lighter orange for subheadings */
+    border-bottom: 2px solid #e67e22; /* Add underline with same color */
+    padding-bottom: 5px;               /* Space below text */
+    margin-top: 30px;                 /* Space above heading */
 }
 
-/* Styling for unordered and ordered lists */
+/* === List Styling (Ingredients & Steps) === */
 ul, ol {
-    background: #fff;
-    padding: 15px;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background: none;                              /* No background */
+    padding: 15px 20px;                           /* Padding inside the list */
+    border-radius: 5px;                          /* Slightly rounded corners */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
+    margin-top: 10px;                          /* Space before list starts */
 }
 
-/* Styling for list items */
 li {
-    margin: 5px 0;
+    margin: 8px 0;             /* Space between list items */
 }
 
-/* Styling for paragraphs */
+/* === Paragraph Styling === */
 p {
-    font-size: 1.1em;
-    background: #fff;
-    padding: 10px;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* Removing background, padding, and shadow for clean look */
+    background: none;
+    box-shadow: none;
+    padding: 0;
+    margin: 0 0 10px 0;       /* Space below each paragraph */
 }
