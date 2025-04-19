@@ -1,4 +1,4 @@
-/* === General Reset and Base Styles === */
+/* General Reset and Base Styles */
 body, html {
     margin: 0;                            /* Remove default margin */
     padding: 0;                          /* Remove default padding */
@@ -8,7 +8,7 @@ body, html {
     height: 100%;                    /* Ensure full height for background */
 }
 
-/* === Background Container Styling === */
+/* Background Container Styling */
 .background {
     background-image: url('images/butter-chicken.jpg'); /* Path to the background image */
     background-size: cover;                            /* Ensure image covers the container */
@@ -21,7 +21,7 @@ body, html {
     padding: 40px;                              /* Space around content */
 }
 
-/* === Overlay Styling === */
+/* Overlay Styling */
 .overlay {
     background-color: rgba(255, 255, 255, 0.85);    /* Semi-transparent white background */
     padding: 30px;                                   /* Space inside the overlay */
@@ -31,7 +31,7 @@ body, html {
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); /* Soft shadow for depth */
 }
 
-/* === Headings Styling === */
+/* Headings Styling */
 h1 {
     color: #d35400;                 /* Bold orange color for main heading */
     margin-top: 0;                   /* Remove default top margin */
@@ -44,7 +44,7 @@ h2 {
     margin-top: 30px;                 /* Space above heading */
 }
 
-/* === List Styling (Ingredients & Steps) === */
+/* List Styling (Ingredients & Steps) */
 ul, ol {
     background: none;                              /* No background */
     padding: 15px 20px;                           /* Padding inside the list */
@@ -57,7 +57,7 @@ li {
     margin: 8px 0;             /* Space between list items */
 }
 
-/* === Paragraph Styling === */
+/* Paragraph Styling */
 p {
     /* Removing background, padding, and shadow for clean look */
     background: none;
